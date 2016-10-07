@@ -1,2 +1,2 @@
 # disk-zero
-This script automates the process of zeroing encrypted drives in terminal. It gives the user a list of encrypted drives, and then uses the user's selection unencrypt and zero the drive. 
+This script automates the process of zeroing encrypted drives in terminal. It gives the user a list of encrypted drives, and then uses the user's selection to delete the proper volume. From that point, the drive can be zeroed in terminal. We need to decide if we want to stop there, or continue to automate the rest of the zeroing process. If we automate the process, there will need to be several checks to make sure that the user is sure that they are zeroing the correct drive. 
